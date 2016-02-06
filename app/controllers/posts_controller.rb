@@ -5,6 +5,7 @@ class PostsController < ApplicationController
 	def new
 		@post = Post.new
 	end
+	# just for git purpose
 	def create
 		@posts = Post.new(post_params)
 		if @post.save
